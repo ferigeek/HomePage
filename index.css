@@ -1,0 +1,10 @@
+#MainSec {
+    height: 100%;
+    padding-top: 5%;
+}
+
+#title {
+    align-self: center;
+    text-decoration: chartreuse;
+    transition-delay: 50ms;
+}
