@@ -33,3 +33,7 @@ h1 {
 #MainSecPic {
     padding-bottom: 5%;
 }
+
+#redhover:hover {
+    color: rgb(175, 0, 0);
+}
