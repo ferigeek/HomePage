@@ -27,6 +27,7 @@ h1 {
 
 .container {
     border: dashed;
+    margin-top: 3%;
 }
 
 #MainSecPic {
