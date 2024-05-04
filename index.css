@@ -19,6 +19,7 @@
     background-attachment: fixed;
     background-color: rgb(94, 94, 94);
     text-align: center;
+    align-items: center;
 }
 
 #title {
@@ -36,4 +37,18 @@
 
 #redhover:hover {
     color: rgb(175, 0, 0);
+}
+
+#MainSec2 {
+    border: dashed;
+    margin: 5%;
+}
+
+#ProgrammingImage {
+    padding: 5%;
+    width: 100px;
+}
+
+.col-lg-3 {
+    align-items: center;
 }
