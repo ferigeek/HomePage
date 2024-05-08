@@ -3,17 +3,18 @@
 }
 
 #MainSec {
+    vertical-align: middle;
     border: dashed;
-    padding-top: 5%;
+    padding: 5%;
     margin: 5%;
-    height: 100%;
+    height: 400px;
 }
 
 #MainSecText {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    vertical-align: middle;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 10%;
 }
 
 #footer {
@@ -33,7 +34,8 @@
 }
 
 #MainSecPic {
-    padding-bottom: 5%;
+    padding: 5%;
+    vertical-align: middle;
 }
 
 #redhover:hover {
