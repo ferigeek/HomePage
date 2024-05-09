@@ -4,7 +4,7 @@
 
 #MainSec {
     vertical-align: middle;
-    border: dashed;
+    background-color: rgb(43, 48, 53);
     padding: 5%;
     margin: 5%;
     height: 400px;
@@ -29,7 +29,7 @@
 }
 
 .container {
-    border: dotted;
+    border: dashed;
     margin-top: 3%;
 }
 
@@ -44,7 +44,6 @@
 }
 
 #MainSec2 {
-    border: dashed;
     margin: 5%;
 }
 
