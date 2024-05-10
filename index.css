@@ -66,3 +66,7 @@
     border: dashed;
     border-color: rgb(43, 48, 53);
 }
+#insideCol3:hover {
+    border-color: rgb(175, 0, 0);
+    color: rgb(175, 0, 0);
+}
