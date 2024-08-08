@@ -4,7 +4,6 @@
 
 #MainSec {
     vertical-align: middle;
-    background-color: rgb(43, 48, 53);
     padding: 5%;
     margin: 5%;
     height: 400px;
@@ -19,7 +18,6 @@
 
 #footer {
     background-attachment: fixed;
-    background-color: rgb(94, 94, 94);
     text-align: center;
     align-items: center;
 }
