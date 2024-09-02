@@ -42,7 +42,7 @@
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
                                 <a class="navbar-brand" href="https://github.com/ferigeek" target="_blank">
-                                    <img src="./media/github-mark-white.png" alt="Github" width="25" height="25">
+                                    <img src="./media/github-mark-white.png" alt="Github" width="25" height="25" id="github-icon">
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -112,6 +112,28 @@
 
 
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    
+    <script>
+        function updateTheme() {
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const htmlElement = document.documentElement;
+    
+            // Set the theme based on the system's preference
+            if (isDarkMode) {
+                htmlElement.setAttribute('data-bs-theme', 'dark');
+                document.getElementById('github-icon').src = './media/github-mark-white.png';
+            } else {
+                htmlElement.setAttribute('data-bs-theme', 'light');
+                document.getElementById('github-icon').src = './media/github-mark.png';
+            }
+        }
+    
+        // Initial theme setting
+        updateTheme();
+    
+        // Listen for changes in the system theme
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+    </script>
 </body>
 
 </html>
